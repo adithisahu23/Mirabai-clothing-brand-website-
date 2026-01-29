@@ -1,0 +1,22 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1920x600?text=Indian+Fabric+Pattern');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero h2, .hero p {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
